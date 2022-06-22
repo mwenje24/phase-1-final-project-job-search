@@ -127,5 +127,70 @@ button:hover{
     align-items: center;
 }
 
+/* about page */
+.about-landing{
+    background-repeat:no-repeat;
+	background-size:cover;
+	width: 100%;
+	height: 200px;
+	background-attachment: fixed;
+	background-position: center;
+	background-image:url(../images/aboutus.jpg);
+	opacity:.9;
+}
+#about{
+    height: 100vh;
+    background-color: white;
+    position: relative;
+}
+#about h3{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+
+    color: #000000;
+    text-align: center;
+    padding-top:2%;
+}
+#about .about-content{
+    position: relative;
+    background: #73684E;
+}
+#about .about-content img{
+    width: auto;
+    height: 190px;
+    border-radius: 21px;
+}
+#about .about-content .image1{
+    position: absolute;
+    left: 134px;
+    top: 80px;
+}
+#about .about-content .image2{
+    position: absolute;
+    left: 199px;
+    top: 219px;
+}
+#about .about-content .about-info{
+    position: absolute;
+    left: 679px;
+    top: 50px;
+    /* background-color: #fff; */
+    padding:0px 20px;
+    border-left:1px solid #73684E;
+    /* text-align: justify; */
+    transform: skew(10deg);
+    /* transform: translateX(50%) skew($skew-amount); */
+}
+#about .about-content .about-info p{
+    transform: skew(-10deg);
+}
+#about .about-content .about-info h4{
+    font-size: 24px;
+    color: #73684E;
+    transform: skew(-10deg);
+}
+
 
 
