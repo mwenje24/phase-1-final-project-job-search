@@ -306,5 +306,19 @@ button:hover{
     color: #000000;
 }
 
+/* footer section */
+#affiliations{
+    height: 100vh;
+    background-color: #73684E;
+    position: relative;
+}
+#affiliations .main-footer{
+    position: absolute;
+    height: 35vh;
+    width: 100%;
+    bottom: 0px;
+    background-color: #000000;
+}
+
 
 
