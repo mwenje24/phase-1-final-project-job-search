@@ -13,7 +13,7 @@
     <div class="">
         <div class="nav-main" id="home">
             <nav>
-                <h2 class="logo">Mwe<span>nje</span></h2>
+                <h2 class="logo">Job<span>Search</span></h2>
                 <ul>
                     <li><a href="#home">home</a></li>
                     <li><a href="#about">about</a></li>
@@ -24,13 +24,13 @@
             </nav>
             <div class="home-content">
                 <div class="text-content"><p>Find your Dream Job and kick start your career through Job Search</p>
-                    <button class="btn">search</button>
+                    <button class="btn btn-sm btn-secondary">search</button>
                 </div>
                 <div class="img-content"><img src="./images/work1.png" alt=""></div>
             </div>
             <div class="home-footer">
                 <div class="row">
-                    <div class="col-4"><h3>how it works →</h3></div>
+                    <div class="col-4"><h3>how it works ❯</h3></div>
                     <dic class="col-4">
                         <div class="row">
                             <!-- <div class="col-4 align-items-center steps">
@@ -82,7 +82,29 @@
                     Pariatur assumenda rerum harum ut! Maiores qui eaque eum aut,
                         blanditiis rem, alias ex maxime soluta voluptatibus nemo, 
                         fuga ab repellat culpa?</p>
-                        <button class="btn btn-sm btn-secondary">Get started →</button>
+                        <button class="btn btn-sm btn-secondary" onclick="openJobAdvert()" id="jobadvert">Get started ❯</button>
+                    <div class="form-display" id="job-advert">
+                        <form id="contactMessage">
+                            <div class="form-content">
+                                <h5>form input</h5>
+                                <button class="btn button" onclick="closeJobAdvert()">x</button>
+                                <div class="message">
+                                    <div class="msgerr"></div>
+                                    <label>Full Name</label><br>
+                                    <input id="username" type="text" name="name" placeholder="Enter Your Full Names">
+                                </div>
+                                <div class="message">
+                                    <label>Email</label><br>
+                                    <input id="email"  name="email" type="text" placeholder="Enter Your Email">
+                                </div>
+                                <div class="message">
+                                    <label>Message</label><br>
+                                    <textarea id="message" name="message" cols="20" rows="5"></textarea>
+                                </div>
+                                <input type="submit" value="Send">
+                            </div>
+                        </form>
+                    </div>
                 </div>
                 <div class="service-card">
                     <h4>CV/Resume Review</h4>
@@ -91,7 +113,7 @@
                     Pariatur assumenda rerum harum ut! Maiores qui eaque eum aut,
                         blanditiis rem, alias ex maxime soluta voluptatibus nemo, 
                         fuga ab repellat culpa?</p>
-                        <button class="btn btn-sm btn-secondary">Get started →</button>
+                        <button class="btn btn-sm btn-secondary" onclick="openJobAdvert()" id="cvreview">Get started ❯</button>
                 </div>
                 <div class="service-card">
                     <h4>Job Search Advice</h4>
@@ -100,7 +122,7 @@
                     Pariatur assumenda rerum harum ut! Maiores qui eaque eum aut,
                         blanditiis rem, alias ex maxime soluta voluptatibus nemo, 
                         fuga ab repellat culpa?</p>
-                        <button class="btn btn-sm btn-secondary">Get started →</button>
+                        <button class="btn btn-sm btn-secondary" onclick="openJobAdvert()" id="jobadvice">Get started ❯</button>
                 </div>
                 <div class="service-card">
                     <h4>Cognitive ability assesment</h4>
@@ -109,7 +131,7 @@
                     Pariatur assumenda rerum harum ut! Maiores qui eaque eum aut,
                         blanditiis rem, alias ex maxime soluta voluptatibus nemo, 
                         fuga ab repellat culpa?</p>
-                        <button class="btn btn-sm btn-secondary">Get started →</button>
+                        <button class="btn btn-sm btn-secondary" onclick="openJobAdvert()" id="cognitiveability">Get started ❯</button>
                 </div>
             </div>
         </div>
@@ -121,8 +143,54 @@
             </ul>
         </div>
         <div id="affiliations">
+            <h3>testimonials</h3>
+            <div class="footer-content">
+                <input type="radio" name="images" id="i1" checked>
+                <input type="radio" name="images" id="i2">
+                <input type="radio" name="images" id="i3">
+
+                <div class="slider-div" id="first">
+                    <img src="./images/bich-tran.jpg" alt="">
+                    <label for="i3" class="pre">❮</label>
+                    <label for="i2" class="next">❯</label>
+                    <div class="comment">
+                        <h3>dolor sit amet</h3>
+                        <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                             Deleniti doloribus aut, quos, ex tempora odio dolorem 
+                             veniam doloremque dignissimos iusto magnam tempore incidunt facilis, ipsam 
+                             sint veritatis. Et, illo libero! doloribus aut, quos, ex tempora odio dolorem 
+                             veniam doloremque dignissimos iusto magnam tempore incidunt facilis, ipsam 
+                             sint veritatis. Et, illo libero!</h4>
+                    </div>
+                </div>
+                <div class="slider-div" id="second">
+                    <img src="./images/jeshoots.jpg" alt="">
+                    <label for="i2" class="pre">❮</label>
+                    <label for="i3" class="next">❯</label>
+                </div>
+                <div class="slider-div" id="third">
+                    <img src="./images/plenio.jpg" alt="">
+                    <label for="i2" class="pre">❮</label>
+                    <label for="i1" class="next">❯</label>
+                </div>
+                <div class="footer-nav">
+                    <label class="dots" id="dot1" for="i1"></label>
+                    <label class="dots" id="dot2" for="i2"></label>
+                    <label class="dots" id="dot3" for="i3"></label>
+                </div>
+            </div>
             <div class="main-footer">
-                
+                <div class="main-footer-content">
+                    <div class="footer-column">
+                        <h5>Lorem ipsum dolor sit amet consectetur</h5>
+                    </div>
+                    <div class="footer-column">
+                        <h5>Lorem ipsum dolor sit amet consectetur</h5>
+                    </div>
+                    <div class="footer-column">
+                        <h5>Lorem ipsum dolor sit amet consectetur</h5>
+                    </div>
+                </div>
             </div>
         </div>
         

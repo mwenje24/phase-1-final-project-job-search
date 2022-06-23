@@ -1,4 +1,3 @@
-
 const options = {
 	method: 'GET',
 	headers: {
@@ -10,7 +9,7 @@ const options = {
 let fetchData = async() => {
 	let res = await fetch('https://job-vacancies.p.rapidapi.com/vacancies/jora', options)
 	let data = await res.json()
-	console.log(data)
+	// console.log(data)
 	data.map((dataValue) =>{
 		const jobType = document.querySelector('#categories ul');
 		const li = document.createElement('li');
@@ -21,12 +20,3 @@ let fetchData = async() => {
 document.addEventListener('DOMContentLoaded', function() {
 	fetchData();
 });
-
-function openJobAdvert(){
-	document.getElementById("job-advert").style.display="block";
-	const title = document.querySelector(".form-display #contactMessage .form-content h5");
-	// if()
-}
-function closeJobAdvert(){
-	document.getElementById("job-advert").style.display="none";
-}
