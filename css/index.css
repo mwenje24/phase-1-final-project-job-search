@@ -260,7 +260,7 @@ button:hover{
     position: absolute;
 }
 #services .service-card p{
-    padding:80px 15px
+    padding:60px 15px
 }
 #services .service-card button{
     align-self: flex-end;
