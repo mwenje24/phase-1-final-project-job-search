@@ -34,6 +34,9 @@ function openSignup(){
 function closeSignup(){
 	document.getElementById("sign-up").style.display="none";
 }
+function gettingStarted(){
+	document.getElementById("gettingStarted").style.transform="scale(0.98)";
+}
 function formSubmision(){
 	const form = document.querySelector('submitrequest')
 	form.addEventListener('submit', (e) =>{
