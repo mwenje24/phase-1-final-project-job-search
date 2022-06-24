@@ -289,11 +289,13 @@ button:hover{
     padding-top:2%;
 }
 #categories ul{
+    width: 85%;
+    margin: auto;
     padding: 40px;
     display: block;
     -webkit-columns: 3;
-  -moz-columns: 3;
-  columns: 3;
+    -moz-columns: 3;
+    columns: 3;
 }
 #categories ul li{
     list-style: none;
