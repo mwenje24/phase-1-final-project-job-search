@@ -24,9 +24,16 @@ document.addEventListener('DOMContentLoaded', function() {
 
 function openJobAdvert(){
 	document.getElementById("job-advert").style.display="block";
-	const title = document.querySelector(".form-display #contactMessage .form-content h5");
-	// if()
 }
 function closeJobAdvert(){
 	document.getElementById("job-advert").style.display="none";
 }
+function formSubmision(){
+	const form = document.querySelector('submitrequest')
+	form.addEventListener('submit', (e) =>{
+		e.preventDefault()
+		return alert('Your rewuest has been submitted successfully')
+	})
+}
+
+// document.getElementById("submitrequest")

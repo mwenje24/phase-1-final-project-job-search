@@ -24,7 +24,7 @@
             </nav>
             <div class="home-content">
                 <div class="text-content"><p>Find your Dream Job and kick start your career through Job Search</p>
-                    <button class="btn btn-sm btn-secondary">search</button>
+                    <a href="#categories" class="btn btn-sm btn-secondary">Get started</a>
                 </div>
                 <div class="img-content"><img src="./images/work1.png" alt=""></div>
             </div>
@@ -33,11 +33,11 @@
                     <div class="col-4"><h3>how it works ❯</h3></div>
                     <dic class="col-4">
                         <div class="row">
-                            <!-- <div class="col-4 align-items-center steps">
+                            <div class="col-4 steps">
                                 <img class="align-items-center" src="./images/editeddee.png" alt="">
                                 <h2>account</h2>
                                 <h4>creatinng an account with us</h4>
-                            </div> -->
+                            </div>
                         </div>
                     </dic>
                 </div>
@@ -82,11 +82,11 @@
                     Pariatur assumenda rerum harum ut! Maiores qui eaque eum aut,
                         blanditiis rem, alias ex maxime soluta voluptatibus nemo, 
                         fuga ab repellat culpa?</p>
-                        <button class="btn btn-sm btn-secondary" onclick="openJobAdvert()" id="jobadvert">Get started ❯</button>
+                        <button class="btn btn-sm btn-secondary" onclick="openJobAdvert()" id="jobadvertbtn">Get started ❯</button>
                     <div class="form-display" id="job-advert">
-                        <form id="contactMessage">
+                        <form method="" id="contactMessage">
                             <div class="form-content">
-                                <h5>form input</h5>
+                                <h5>Request form</h5>
                                 <button class="btn button" onclick="closeJobAdvert()">x</button>
                                 <div class="message">
                                     <div class="msgerr"></div>
@@ -101,7 +101,7 @@
                                     <label>Message</label><br>
                                     <textarea id="message" name="message" cols="20" rows="5"></textarea>
                                 </div>
-                                <input type="submit" value="Send">
+                                <input id="submitrequest" type="submit" value="Send">
                             </div>
                         </form>
                     </div>
