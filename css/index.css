@@ -283,8 +283,7 @@ button:hover{
     font-weight: 700;
     font-size: 40px;
     line-height: 48px;
-
-    color: #000000;
+    color: #73684E;
     text-align: center;
     padding-top:2%;
 }
@@ -312,7 +311,6 @@ button:hover{
     height: 100vh;
     background-color: #73684E;
     position: relative;
-}
 }
 #affiliations h3{
     font-style: normal;
