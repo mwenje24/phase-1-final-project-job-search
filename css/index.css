@@ -183,20 +183,12 @@ button:hover{
     position: absolute;
     left: 679px;
     top: 50px;
-    /* background-color: #fff; */
     padding:0px 20px;
-    border-left:1px solid #73684E;
-    /* text-align: justify; */
-    transform: skew(10deg);
-    /* transform: translateX(50%) skew($skew-amount); */
-}
-#about .about-content .about-info p{
-    transform: skew(-10deg);
+
 }
 #about .about-content .about-info h4{
     font-size: 24px;
     color: #73684E;
-    transform: skew(-10deg);
 }
 
 /* service page */
