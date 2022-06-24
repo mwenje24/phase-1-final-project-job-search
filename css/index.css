@@ -27,6 +27,7 @@ nav{
 .logo{
     color: white;
     font-size: 25px;
+    padding: 20px;
 }
 .logo span{
     color:burlywood;
@@ -118,15 +119,21 @@ button:hover{
 }
 .home-footer h4{
     font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
+    font-weight: 300;
+    font-size: 12px;
     line-height: 18px;
     text-align: center;
 }
 .home-footer .steps{
     align-items: center;
+    padding: 25px;
 }
-
+.home-footer .steps h2{
+    font-size: 22px;
+}
+.home-footer .steps h4{
+    font-size: 18px;
+}
 /* about page */
 .about-landing{
     background-repeat:no-repeat;
@@ -410,12 +417,39 @@ button:hover{
 #affiliations .main-footer .main-footer-content .footer-column{
     width: 33%;
     box-sizing: border-box;
-    padding: 30px;
+    padding: 20px;
     color: white;
     display: inline-block;
     margin: auto;
     text-align: center;
 }
+#affiliations .main-footer .main-footer-content .footer-column i{
+    font-size: 30px;
+    padding: 10px;
+}
+#affiliations .main-footer .main-footer-content .footer-column ul{
+    text-align: center;
+    padding-left: 20px;
+}
+#affiliations .main-footer .main-footer-content .footer-column ul li{
+    list-style: none;
+    color: #ffffff;
+}
+#affiliations .main-footer .main-footer-content .footer-column ul li a{
+    text-decoration: none;
+    color:#ffffff;
+    margin-top: 10px;
+    font-size: 22px;
+}
+#affiliations .main-footer p{
+    bottom: 2px;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    padding: 8px;
+}
+
+/* request forms */
 
 .form-display{
 	display: none;
