@@ -341,14 +341,15 @@ button:hover{
     border-radius: 50%;
     float:left;
 }
-#affiliation .slider-div .comment{
-    width: 20%;
-    height: 100%;
+#affiliations .slider-div .comment{
+    width: 60%;
+    height: 60vh;
     float:right;
-    padding-right: 10%;
+    padding-right: 20px;
 }
-#affiliation .slider-div .comment h4{
-    color: white;
+#affiliations .slider-div .comment h4{
+    color:black;
+    padding:20px 30px 0px 0px;
 }
 #i1, #i2, #i3{
     display: none;;
