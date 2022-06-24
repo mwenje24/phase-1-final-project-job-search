@@ -334,6 +334,7 @@ button:hover{
     height: 55vh;
     width: 100%;
     position: relative;
+    padding-top: 4%;
 }
 #affiliations .slider-div{
     position: absolute;
@@ -342,10 +343,10 @@ button:hover{
     margin-right: 2%;
 }
 #affiliations .slider-div img{
-    width: 30%;
-    height: 100%;
+    width: 20%;
+    height: 50vh;
     margin:0% 10% 0% 10%;
-    border-radius: 20px 30px 32px 20px;
+    border-radius: 50%;
     float:left;
 }
 #affiliation .slider-div .comment{
@@ -440,6 +441,9 @@ button:hover{
     color:#ffffff;
     margin-top: 10px;
     font-size: 22px;
+}
+#affiliations .main-footer .main-footer-content .footer-column ul li a:hover{
+    color: #73684E;
 }
 #affiliations .main-footer p{
     bottom: 2px;
