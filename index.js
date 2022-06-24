@@ -28,6 +28,12 @@ function openJobAdvert(){
 function closeJobAdvert(){
 	document.getElementById("job-advert").style.display="none";
 }
+function openSignup(){
+	document.getElementById("sign-up").style.display="block";
+}
+function closeSignup(){
+	document.getElementById("sign-up").style.display="none";
+}
 function formSubmision(){
 	const form = document.querySelector('submitrequest')
 	form.addEventListener('submit', (e) =>{

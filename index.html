@@ -21,8 +21,31 @@
                     <li><a href="#about">about</a></li>
                     <li><a href="#services">services</a></li>
                     <li><a href="#categories">categories</a></li>
-                    <li><a href="#signup">Sign up</a></li>
+                    <li><a href="#signup" onclick="openSignup()">Sign up</a></li>
                 </ul>
+                <div class="form-display" id="sign-up">
+                    <form method="" id="contactMessage">
+                        <div class="form-content">
+                            <h5>User Signup</h5>
+                            <button class="btn button" onclick="closeSignup()">x</button>
+                            <div class="message">
+                                <div class="msgerr"></div>
+                                <label>Full Name</label><br>
+                                <input id="username" type="text" name="name" placeholder="Enter Your Full Names">
+                            </div>
+                            <div class="message">
+                                <label>Email</label><br>
+                                <input id="email"  name="email" type="text" placeholder="Enter Your Email">
+                            </div>
+                            <div class="message">
+                                <label>Password</label><br>
+                                <input id="password"  name="password" type="password" placeholder="Enter Your Password">
+                            </div>
+                            <input id="sregister" type="submit" value="Register">
+                        </div>
+                        <a class="mx-4">already have an account? Log in</a>
+                    </form>
+                </div>
             </nav>
             <div class="home-content">
                 <div class="text-content"><p>Find your Dream Job and kick start your career through JobSearch</p>
@@ -80,6 +103,28 @@
         <div class="services-landing"></div>
         <div id="services">
             <h3>services</h3>
+            <div class="form-display" id="job-advert">
+                <form method="" id="contactMessage">
+                    <div class="form-content">
+                        <h5>Request form</h5>
+                        <button class="btn button" onclick="closeJobAdvert()">x</button>
+                        <div class="message">
+                            <div class="msgerr"></div>
+                            <label>Full Name</label><br>
+                            <input id="username" type="text" name="name" placeholder="Enter Your Full Names">
+                        </div>
+                        <div class="message">
+                            <label>Email</label><br>
+                            <input id="email"  name="email" type="text" placeholder="Enter Your Email">
+                        </div>
+                        <div class="message">
+                            <label>Message</label><br>
+                            <textarea id="message" name="message" cols="20" rows="5"></textarea>
+                        </div>
+                        <input id="submitrequest" type="submit" value="Send">
+                    </div>
+                </form>
+            </div>
             <div class="service-container">
                 <div class="service-card">
                     <h4>Job Advertisement</h4>
@@ -89,28 +134,7 @@
                         It is written in an engaging tone and it contains information not only about the
                          job position, but also about your company and the benefits you offer.</p>
                         <button class="btn btn-sm btn-secondary" onclick="openJobAdvert()" id="jobadvertbtn">Get started ❯</button>
-                    <div class="form-display" id="job-advert">
-                        <form method="" id="contactMessage">
-                            <div class="form-content">
-                                <h5>Request form</h5>
-                                <button class="btn button" onclick="closeJobAdvert()">x</button>
-                                <div class="message">
-                                    <div class="msgerr"></div>
-                                    <label>Full Name</label><br>
-                                    <input id="username" type="text" name="name" placeholder="Enter Your Full Names">
-                                </div>
-                                <div class="message">
-                                    <label>Email</label><br>
-                                    <input id="email"  name="email" type="text" placeholder="Enter Your Email">
-                                </div>
-                                <div class="message">
-                                    <label>Message</label><br>
-                                    <textarea id="message" name="message" cols="20" rows="5"></textarea>
-                                </div>
-                                <input id="submitrequest" type="submit" value="Send">
-                            </div>
-                        </form>
-                    </div>
+                
                 </div>
                 <div class="service-card">
                     <h4>CV/Resume Review</h4>

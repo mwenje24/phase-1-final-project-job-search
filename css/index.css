@@ -489,7 +489,7 @@ button:hover{
 .form-display form .form-content .message{
     padding: 15px;
 }
-.form-display form .form-content .message input[type=text], textarea{
+.form-display form .form-content .message input[type=text], textarea, input[type=password]{
     width: 100%;
     padding: 7px 10px;
     margin: 2px 0;
