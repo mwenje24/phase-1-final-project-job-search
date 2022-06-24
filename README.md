@@ -8,6 +8,7 @@ The project is straight foward. The user will have acess to all the files in the
 The Api used can be access using the provided link https://job-vacancies.p.rapidapi.com/vacancies/jora
 No server is required to host the project unless its being deployed
 ## Live link
+https://mwenje24.github.io/phase-1-final-project-job-search/
 ## Known Bugs
 the application is not yet fully implemented to redirect user request but future edits might have the database and redirection implemented
 ## Technologies Used
